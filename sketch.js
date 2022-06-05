@@ -9,6 +9,10 @@ function draw()
   background(30);
 
   if(keyIsDown(RIGHT_ARROW)){
+  background(150,40,300)
+  }
+
+  if(keyIsDown(RIGHT_ARROW)){
     box.position.x=box.position.x+5;
   }
 
